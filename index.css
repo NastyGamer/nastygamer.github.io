@@ -1,0 +1,63 @@
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    font-size: 100px;
+    color: white;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.icons {
+    animation-name: makeSmall;
+    animation-duration: 200ms;
+    animation-timing-function: ease;
+    text-align: center;
+    font-size: 120px;
+}
+
+.icons .fa-bitbucket-square {
+    animation-name: makeSmall;
+    animation-duration: 200ms;
+    animation-timing-function: ease;
+}
+
+.icons .fa-github-square {
+    animation-name: makeSmall;
+    animation-duration: 200ms;
+    animation-timing-function: ease;
+}
+
+.icons .fa-twitter-square {
+    animation-name: makeSmall;
+    animation-duration: 200ms;
+    animation-timing-function: ease;
+}
+
+.fa-bitbucket-square:hover {
+    animation-name: makeBig;
+    animation-duration: 200ms;
+    animation-timing-function: ease;
+    font-size: 170;
+}
+
+.fa-github-square:hover {
+    animation-name: makeBig;
+    animation-duration: 200ms;
+    animation-timing-function: ease;
+    font-size: 170;
+}
+
+.fa-twitter-square:hover {
+    animation-name: makeBig;
+    animation-duration: 200ms;
+    animation-timing-function: ease;
+    font-size: 170;
+}

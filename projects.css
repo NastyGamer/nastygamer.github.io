@@ -1,0 +1,32 @@
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+table {
+    border-bottom: 3px solid white;
+    border-top: 3px solid white;
+    width: 100%;
+}
+
+.fa-github-square,
+.fa-sticky-note {
+    animation-name: makeSmall;
+    animation-duration: 200ms;
+    animation-timing-function: ease;
+    font-size: 120;
+}
+
+.fa-github-square:hover,
+.fa-sticky-note:hover {
+    animation-name: makeBig;
+    animation-duration: 200ms;
+    animation-timing-function: ease;
+    font-size: 170;
+}

@@ -1,0 +1,62 @@
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-position: center center;
+}
+
+@keyframes makeSmall {
+    from {
+        font-size: 170;
+    }
+    to {
+        font-size: 120;
+    }
+}
+
+@keyframes makeBig {
+    from {
+        font-size: 120;
+    }
+    to {
+        font-size: 170;
+    }
+}
+
+.heading {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    font-size: 100px;
+    color: white;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.topnav {
+    overflow: hidden;
+    text-align: left;
+}
+
+.spacer {
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.fa-bitbucket-square {
+    font-size: 120;
+}

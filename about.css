@@ -1,0 +1,33 @@
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 50;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 20;
+}
+
+ul {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.question {
+    font-size: 35;
+    font-style: oblique;
+    padding-top: 20px;
+}
+
+.answer {
+    font-size: 20;
+}
+
+h4 {
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
