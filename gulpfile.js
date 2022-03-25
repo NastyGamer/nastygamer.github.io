@@ -11,20 +11,20 @@ task("md", async () => {
 			ext: ".html",
 			args: ["--mathjax", "--standalone"]
 		}).on("error", (error) => { console.log(error); }))
-		.pipe(dest("dist/html"));
+		.pipe(dest("docs"));
 });
 
 task("scss", async () => {
 	src("src/scss/*.scss")
 		.pipe(sass().on("error", sass.logError))
-		.pipe(dest("dist/css"));
+		.pipe(dest("docs/css"));
 });
 
 task("ts", async () => {
 	const project = ts.createProject("tsconfig.json");
 	src("src/typescript/*.ts")
 		.pipe(project().on("error", (error) => { console.log(error); }))
-		.pipe(dest("dist/javascript"));
+		.pipe(dest("docs/javascript"));
 });
 
 task("watch", () => { 
