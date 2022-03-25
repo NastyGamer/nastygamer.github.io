@@ -1,0 +1,33 @@
+body {
+  background-color: #171717;
+  font-family: "Source Code Pro", monospace;
+}
+
+h1 {
+  color: #00c896;
+  margin-left: 10px;
+}
+
+h2 {
+  color: #d3fbd8;
+  margin-left: 10px;
+}
+
+h3 {
+  color: #f2ecff;
+  margin-left: 10px;
+}
+
+h4 {
+  color: #677e84;
+  margin-left: 10px;
+}
+
+p {
+  color: darkgray;
+  margin-left: 10px;
+}
+
+h1 {
+  padding-top: 10px;
+}
